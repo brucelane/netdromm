@@ -3,6 +3,7 @@
 var Promise = global.Promise || require('promise');
 var nodemon = require('nodemon');
 var winston = require('winston');
+var http = require('http');
 var server = null;
 var wss = require('./src/ws.js');
 var  port = process.env.port || 8088;
