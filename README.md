@@ -16,7 +16,7 @@ openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out server.crt
 On Linux
 
 ``` sh
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
